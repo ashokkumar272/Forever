@@ -44,6 +44,9 @@ const Navbar = () => {
           <p>Contact</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
+        <div className="border-[1px] p-1 rounded-md border-gray-600 hidden sm:flex items-center gap-5 text-sm text-gray-700">
+        <button><a target="_blank" href="https://full-stack-qutp.onrender.com"> admin</a></button>
+      </div>
       </ul>
       <div className="flex items-center gap-6">
         <img

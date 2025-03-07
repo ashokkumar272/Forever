@@ -28,6 +28,18 @@ app.use('/api/order',orderRouter)
 app.get('/', (req, res) => {
     res.send('API Working');
 })
+app.get('/user', (req, res)=>{
+    res.send('user')
+})
+app.get('/cart', (req,res)=>{
+    res.send("cart")
+})
+app.get('/order', (req,res)=>{
+    res.send('orders')
+})
+app.get('/product', (req, res)=>{
+    res.send('products')
+})
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
